@@ -5,16 +5,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.m2_hw2_soln"
+    namespace = "com.example.m2_l2_hw1_soln"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.m2_hw2_soln"
+        applicationId = "com.example.m2_l2_hw1_soln"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

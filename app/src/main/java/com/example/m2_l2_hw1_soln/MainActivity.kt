@@ -1,4 +1,4 @@
-package com.example.m2_hw2_soln
+package com.example.m2_l2_hw1_soln
 
 import android.content.Intent
 import android.os.Bundle

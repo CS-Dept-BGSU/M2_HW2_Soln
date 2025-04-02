@@ -1,4 +1,4 @@
-package com.example.m2_hw2_soln.ui.theme
+package com.example.m2_l2_hw1_soln.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
