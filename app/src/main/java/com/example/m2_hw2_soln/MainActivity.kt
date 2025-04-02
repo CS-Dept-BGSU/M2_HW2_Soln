@@ -41,8 +41,8 @@ class MainActivity : AppCompatActivity() {
      * TODO: Implement this method to send a message to SecondaryActivity
      *
      * Expected Implementation:
-     * val intent = Intent("com.example.m2_hw2_soln.DISPLAY_MESSAGE")
-     * intent.putExtra("message", messageEditText.text.toString())
+     * val intent = Intent(this, SecondaryActivity::class.java)
+     * intent.putExtra("message", message)
      * startActivity(intent)
      */
     private fun sendMessageToSecondaryActivity() {
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
      *
      * Expected Implementation:
      * val intent = Intent(this, BackgroundService::class.java)
-     * intent.putExtra("message", messageEditText.text.toString())
+     * intent.putExtra("message", message)
      * startService(intent)
      */
     private fun startBackgroundService() {
